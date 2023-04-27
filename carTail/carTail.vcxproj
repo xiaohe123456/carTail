@@ -222,8 +222,13 @@ opencv_xobjdetect341.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="calcDepth.cpp" />
     <ClCompile Include="carTail.cpp" />
     <ClCompile Include="imgToPcl.cpp" />
+    <ClCompile Include="matrixInvert.cpp" />
+    <ClCompile Include="matrixMul.cpp" />
+    <ClCompile Include="test.cpp" />
+    <ClCompile Include="test1.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
